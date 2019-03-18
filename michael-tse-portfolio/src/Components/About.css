@@ -1,0 +1,33 @@
+.aboutComponent {
+    width: 100%;
+    height: 80vh;
+    position: relative;
+}
+.aboutContainer {
+    border: 1px solid black;
+    width: 55%;
+    height: 60%;
+    position: absolute;
+    margin: auto;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    padding: 5%;
+    font-family: 'Barlow Semi Condensed', sans-serif;
+}
+.aboutComponentTitle {
+    margin-top: 5%;
+}
+.aboutContentContainer {
+    height: 35vh;
+    display: flex;
+}
+.aboutPara {
+    font-size: 20px;
+    flex: 4;
+}
+.aboutSkills {
+    flex: 1;
+    padding-left: 10%;
+}
