@@ -5,6 +5,7 @@
     font-family: 'Barlow Semi Condensed', sans-serif;
     background-color: black;
     color: white;
+    position: relative;
 }
 .contactTitle {
     text-align: center;
@@ -25,4 +26,12 @@
 .fas:hover, .fab:hover {
     background-color: white;
     color: black;
+}
+@media (max-width: 414px) {
+    .contactComponent {
+        bottom: 0;
+    }
+    .contactTitle {
+        font-size: 30px;
+    }
 }

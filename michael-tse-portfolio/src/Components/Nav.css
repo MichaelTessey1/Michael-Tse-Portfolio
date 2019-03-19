@@ -28,3 +28,14 @@
     color: blue;
     text-shadow: 1px 1px grey;
 }
+
+@media (max-width: 414px) {
+    .navTitle {
+        font-size: 25px;
+        bottom: 0;
+    }
+    .navAbout, .navContact, .navProjects {
+        font-size: 15px;
+        padding-top: 5%;
+    }
+}

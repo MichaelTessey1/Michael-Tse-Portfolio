@@ -33,3 +33,22 @@
     flex: 1;
     padding-left: 10%;
 }
+
+@media (max-width: 414px) {
+    .aboutComponent {
+        height: 60vh;
+    }
+    .aboutContainer {
+        width: 80%;
+        padding-bottom: 0%;
+    }
+    .aboutComponentTitle {
+        font-size: 25px;
+    }
+    .aboutContentContainer {
+        flex-direction: column;
+    }
+    .aboutPara {
+        font-size: 15px;
+    }
+}
