@@ -2,6 +2,7 @@
     width: 100%;
     height: 80vh;
     position: relative;
+    margin-top: 5.3%;
 }
 .aboutContainer {
     border: 1px solid black;
@@ -15,6 +16,7 @@
     left: 0;
     padding: 5%;
     font-family: 'Barlow Semi Condensed', sans-serif;
+    overflow: scroll;
 }
 .aboutComponentTitle {
     margin-top: 5%;

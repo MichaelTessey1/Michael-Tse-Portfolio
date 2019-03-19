@@ -3,13 +3,13 @@ import './About.css'
 
 const About = () => {
     return (
-        <div className='aboutComponent'>
+        <div id='about' className='aboutComponent'>
             <div className='aboutContainer'>
                 <h1 className='aboutComponentTitle'>Who Am I?</h1>
                 <div className='aboutContentContainer'>
 
                     <p className='aboutPara'>
-                        Hello, my name is Michael Tse but everyone calls me 'Tessey'. I am a gamer and a BIG FAN of Fortnite (I know I know..) but I've recently found my passion
+                        Hello, my name is Michael Tse but everyone calls me 'Tessey.' I am a gamer and a BIG FAN of Fortnite (I know I know..) but I've recently found my passion
                         for Web/App Development. In my perspective, community and people is everything. From a simple act of sharing or helping to a fun or meaningful bonding experience, I've
                         learned that there are all kinds of amazing people out there that I want to surrounding myself with. This idea alone, drives me to want to become a better
                         Web/App Developer, simply so I can give back to the community that's taken care of me and shaped me into the person I am today. I simply want to live life 
@@ -17,7 +17,7 @@ const About = () => {
                     </p>
 
                     <ul className='aboutSkills'>
-                        <h3>Knowledgable In</h3>
+                        <h3>Skills</h3>
                         <li>HTML</li>
                         <li>CSS</li>
                         <li>JavaSript(es6)</li>

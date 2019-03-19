@@ -4,10 +4,10 @@ import './Nav.css'
 const Nav = () => {
     return (
         <nav className='navigation'>
-            <h1 className='navTitle'>Michael Tse</h1>
-            <h2 className='navAbout'>About</h2>
-            <h2 className='navProjects'>Projects</h2>
-            <h2 className='navContact'>Contact</h2>
+            <h1 className='navTitle'><a className='navcomp' href='/' >Michael Tse</a></h1>
+            <h2 className='navAbout'><a className='navcomp' href='#about'>About</a></h2>
+            <h2 className='navProjects'><a className='navcomp' href='#project'>Projects</a></h2>
+            <h2 className='navContact'><a className='navcomp' href='#contact'>Contact</a></h2>
         </nav>
     )
 }

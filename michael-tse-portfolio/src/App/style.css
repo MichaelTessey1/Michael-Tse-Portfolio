@@ -1,4 +1,8 @@
 .App {
-    border: 1px solid crimson;
     position: relative;
+}
+@media (max-width: 414px) {
+    .App {
+        margin-left: -1.5vw;
+    }
 }

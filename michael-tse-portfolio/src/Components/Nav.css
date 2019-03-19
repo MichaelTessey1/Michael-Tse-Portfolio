@@ -1,9 +1,12 @@
 .navigation {
     border-bottom: 1px solid black;
     display: flex;
-    width: 100%;
+    width: 99%;
     height: 10%;
-    /* position: fixed; */
+    position: fixed;
+    z-index: 9999;
+    background-color: white;
+    top: 0;
 }
 .navTitle {
     flex: 4;
@@ -16,4 +19,12 @@
     text-align: center;
     font-family: 'Barlow Semi Condensed', sans-serif;
     padding-top: 1%;
+}
+.navcomp {
+    text-decoration: none;
+    color: black;
+}
+.navcomp:hover {
+    color: blue;
+    text-shadow: 1px 1px grey;
 }

@@ -1,7 +1,6 @@
 .projectComponent {
     width: 100%;
     height: 100vh;
-    border: 1px solid blue;
     font-family: 'Barlow Semi Condensed', sans-serif;
 }
 .projectTitle {
@@ -9,7 +8,6 @@
     font-size: 50px;
 }
 .projectContainer {
-    border: 1px solid black;
     width: 90%;
     height: 80%;
     margin: auto;
@@ -19,8 +17,44 @@
     left: 0;
     display: flex;
 }
-.project1, .project2, .project3 {
+.project2, .project4, .project1 {
     flex: 1;
-    border: 1px solid black;
+    border: 0.1px solid black;
     margin: 1%;
+    display: flex;
+    flex-direction: column;
+}
+.project2image {
+    background-image: url('../images/project2.png');
+    flex: 3;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.project4image {
+    background-image: url('../images/camera.jpg');
+    flex: 3;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.project1image {
+    background-image: url('../images/rasengan.jpg');
+    flex: 3;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.project2content, .project4content, .project1content {
+    flex: 4;
+    padding: 2%;
+}
+.project2title, .project4title, .project1title {
+    font-size: 30px;
+}
+.project2text, .project4text, .project1text {
+    font-size: 20px;
+    font-family: 'Open Sans Condensed', sans-serif;
+}
+.projectLinks {
+    text-align: center;
+    display: flex;
+    justify-content: space-around;
 }
